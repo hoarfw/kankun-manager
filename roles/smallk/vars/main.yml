@@ -1,6 +1,6 @@
 ---
 
-timezone: EDT-11
+timezone: CST-8
 
 required_packages:
   - socat

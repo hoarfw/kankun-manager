@@ -1,7 +1,7 @@
 ---
 
-- name: Configure Kankun switches
-  hosts: switches
+- name: Configure Kankun1 switches
+  hosts: k1
   sudo: no
   remote_user: root
   gather_facts: false

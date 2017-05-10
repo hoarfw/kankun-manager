@@ -10,7 +10,7 @@ for i in "${HOSTS[@]}"
 do
   :
   echo "Copying install files to ${i}..."
-
+	
   sshpass -p$PASS scp roles/smallk/files/root/opkg-rc3.tar.gz root@${i}:/root/opkg-rc3.tar.gz
   sshpass -p$PASS scp -r roles/smallk/files/www/* root@${i}:/www/
   sshpass -p$PASS scp roles/smallk/files/root/broadcast.sh root@${i}:/root/broadcast.sh

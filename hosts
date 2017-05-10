@@ -1,3 +1,4 @@
-[switches]
-10.0.0.10 ansible_ssh_pass='p9z34c'
-10.0.0.11 ansible_ssh_pass='p9z34c'
+[k1]
+192.168.31.175 ansible_ssh_pass='admin'
+192.168.31.169 ansible_ssh_pass='admin'
+192.168.31.23 ansible_ssh_pass='p9z34c'

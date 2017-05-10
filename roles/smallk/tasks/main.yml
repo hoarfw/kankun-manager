@@ -10,9 +10,6 @@
   raw: opkg install {{item}}
   with_items: required_packages
 
-- name: Set timezone to {{timezone}}
-  raw: echo "{{timezone}}" > /etc/TZ
-
 - name: Create cgi-bin directory
   raw: mkdir -p /www/cgi-bin/
 
